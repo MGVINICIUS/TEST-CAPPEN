@@ -1,6 +1,11 @@
+"use client"
 import { DivideSvg } from "@/Icons/DivideSvg"
 import { TextIncreaseOpacityInView } from "@/lib/Animations"
+import { useScroll } from "framer-motion"
+import { useRef } from "react"
 export const TrajectoryPage = () => {
+    
+
     return (
         <section className="h-screen relative flex justify-center items-center font-aurea-ultra-roman">
             <DivideSvg className="absolute w-[375px] h-[192px] lg:w-[583px] lg:h-[300px] -top-32 lg:-top-44"/>
